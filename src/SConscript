@@ -1,0 +1,3 @@
+env = Environment(CPPPATH = '#include')
+
+env.Library('input', 'input.c')
